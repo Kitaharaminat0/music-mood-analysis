@@ -1,0 +1,13 @@
+# 核心推理
+transformers>=4.30
+torch>=2.0
+
+# 音频特征（调式 / 速度）
+librosa>=0.10
+soundfile>=0.12
+
+# 数值
+numpy>=1.23
+
+# 注：librosa 0.10.1 起 librosa.beat.tempo 迁到 librosa.feature.rhythm.tempo，
+# music_mood.py 里两套都兼容，装哪个版本都能跑。

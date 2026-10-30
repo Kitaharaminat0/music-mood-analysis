@@ -1,0 +1,34 @@
+# 模型权重（首次运行自动下载，不入库）
+*.safetensors
+*.bin
+*.h5
+models/
+music_moods/
+
+# 音频素材（版权问题，别往仓库塞）
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.aac
+*.ogg
+*.mp4
+
+# 本地校准（个人调参，不该进公共仓库）
+calibration.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
